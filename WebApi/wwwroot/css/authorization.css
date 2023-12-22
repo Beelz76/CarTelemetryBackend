@@ -1,0 +1,165 @@
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #7EC5AB;
+}
+
+.title {
+    margin-top: 10%;
+    width: 359px;
+    height: 78px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    background-color: #A0D4C8;
+    display: flex;
+}
+
+.label1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Jost", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    color: #073B2F;
+    margin-top: 2%;
+    margin-left: 14%;
+}
+
+.input-container-main {
+    width: 334px;
+    height: 66px;
+    margin-bottom: 1%;
+    background-color: #A0D4C8;
+    border: none;
+    border-radius: 10px;
+}
+
+.label2 {
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "Jost", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    color: #073B2F;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    height: 55%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    background-color: #A0D4C8;
+    border-radius: 10px;
+    border: none;
+}
+
+input {
+    width: 80%;
+    border: 2px solid #A0D4C8;
+    background-color: #A0D4C8;
+    color: #073B2F;
+    border-radius: 10px;
+}
+
+.human1_icon {
+    width: 35px;
+    height: 35px;
+    margin-left: 3%;
+    margin-bottom: 8%;
+    align-self: center;
+}
+
+.human2_icon {
+    width: 35px;
+    height: 35px;
+    align-self: center;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.eye_icon {
+    width: 38px;
+    height: 38px;
+    align-self: center;
+    margin-left: 3%;
+    margin-bottom: 8%;
+}
+
+.enter_icon {
+    width: 36px;
+    height: 36px;
+    align-self: center;
+    margin-left: 4%;
+    color: red;
+}
+
+.forgetPass:hover {
+    background-color: #5FD2B8;
+}
+
+.login-button {
+    display: flex;
+    flex-direction: row;
+    width: 172px;
+    height: 55px;
+    background-color: #A7D4A0;
+    border: none;
+    color: #008E24;
+    border-radius: 18px;
+    margin-bottom: 1%;
+}
+
+.login-button:hover {
+    background-color: #92DE85;
+    color: #000000;
+}
+
+.label4 {
+    margin-left: 0%;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Jost", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    margin-left: 3%;
+}
+
+
+.registration-button {
+    display: flex;
+    flex-direction: row;
+    width: 242px;
+    height: 38px;
+    background-color: #E3CDCD;
+    border: none;
+    color: #F65858;
+    border-radius: 10px;
+}
+
+.registration-button:hover {
+    background-color: #E88F8F;
+    color: #000000;
+}
+
+.label3 {
+    margin-top: 1%;
+    margin-left: 0%;
+    font-size: 29px;
+    font-weight: bold;
+    font-family: "Jost", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    margin-top: 1%;
+}

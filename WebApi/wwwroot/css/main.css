@@ -1,0 +1,142 @@
+html, body {
+    margin: 0;
+    background-color: #7EC5AB;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+/*Верхняя часть*/
+
+topside {
+    float: left;
+    width: 100%;
+    height: 60px;
+}
+
+.finish {
+    float: left;
+    margin-left: 10px;
+    margin-top: 1px;
+    width: 70px;
+}
+
+.telemetry_autosporta {
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Jost", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    color: black;
+}
+
+.exit_btn {
+    float: right;
+    margin-right: 50px;
+    margin-top: 15px;
+    background: #E3CDCD;
+    border-color: #E3CDCD;
+    border-radius: 5px;
+    width: 90px;
+    padding: 7px 0px;
+    text-align: center;
+    color: #F65858;
+    font-family: "Jost", Arial, sans-serif;
+}
+
+    .exit_btn:hover {
+        background: #F65858;
+        color: #000000;
+    }
+/*Боковая панель*/
+
+aside {
+    float: left;
+    width: 14%;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: left;
+}
+
+.navigation_button {
+    float: left;
+    margin-top: 10px;
+    background: #A0D4C8;
+    padding: 2%;
+    color: #073B2F;
+    font-family: "Jost", Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+    .navigation_button:hover {
+        background: #328C77;
+        color: #09201B;
+    }
+
+.navigation_icons {
+    margin-top: 1px;
+    width: 30px;
+}
+
+/*Основная информация*/
+
+main {
+    float: right;
+    margin-top: 27px;
+    margin-right: 50px;
+    width: 78%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+h4 {
+    width: 400px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Jost", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    color: #073B2F;
+    background: #A0D4C8;
+    border-radius: 5px;
+}
+
+h5 {
+    width: 500px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Jost", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    color: #073B2F;
+    background: #A0D4C8;
+    border-radius: 5px;
+}
+
+h6 {
+    width: 800px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Jost", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    color: #073B2F;
+    background: #A0D4C8;
+    border-radius: 5px;
+}
+
+text_about_telemetry {
+    padding: 3%;
+    font-family: "Jost", Arial, sans-serif;
+    font-weight: bold;
+    text-align: left;
+}

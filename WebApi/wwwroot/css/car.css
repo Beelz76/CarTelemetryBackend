@@ -1,0 +1,222 @@
+html, body {
+    margin: 0;
+    background-color: #7EC5AB;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.car-title {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Jost", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    color: #073B2F;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    padding: 10px 60px;
+    background-color: #A0D4C8;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Jost", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    color: #073B2F;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    padding: 20px 60px;
+    background-color: #A0D4C8;
+}
+
+.car-image {
+    display: block;
+    max-width: 40%;
+    height: auto;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    background-color: #A0D4C8;
+    padding: 10px;
+}
+
+.info-container {
+    align-self: flex-start;
+    width: 100%;
+}
+
+.info-container-description {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-description {
+    width: 60%;
+    border-radius: 10px;
+    background-color: #A0D4C8;
+    margin-bottom: 2rem;
+}
+
+.info-title {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Jost", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    color: #073B2F;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    padding: 10px 60px;
+    background-color: #A0D4C8;
+    display: inline-block;
+}
+
+.car-description {
+    font-family: "Jost", Arial, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.car-info-description {
+    font-family: "Jost", Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 0px 100px 20px 0px;
+    border-radius: 10px;
+    padding: 15px 40px;
+    text-align: center;
+    border: solid 5px;
+    border-color: #A0D4C8;
+    background-color: white;
+}
+
+.car-info-analytics-description {
+    font-family: "Jost", Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    width: 60%;
+    margin: 0px 100px 20px 0px;
+    border-radius: 10px;
+    padding: 15px 40px;
+    text-align: center;
+    border: solid 5px;
+    border-color: #A0D4C8;
+    background-color: white;
+}
+
+.telemetry-button {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Jost", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    background-color: #A0D4C8;
+    width: 400px;
+    color: #073B2F;
+    padding: 10px 0px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.telemetry-button:hover {
+    background-color: #0E765E;
+    color: #073B2F;
+}
+
+.container-car {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.car {
+    width: 100%;
+    display: flex;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #A0D4C8;
+}
+
+.car-image-refactor {
+    display: block;
+    max-width: 60%;
+    height: auto;
+    border-radius: 20px;
+    background-color: #A0D4C8;
+    padding: 10px;
+}
+
+.cars-page {
+    background: #92C68E;
+    width: 105px;
+    height: 50%;
+    color: #403D3D;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    padding-top: 15px;
+}
+
+    .cars-page:hover {
+        color: black;
+        background-color: #2DB142;
+    }
+
+.delete-car-button {
+    background: #CD8484;
+    width: 105px;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+}
+
+    .delete-car-button:hover {
+        background-color: #DE4343;
+        color: black;
+    }
+
+.car-image-delete_button {
+    height: 60%;
+}
+
+    .car-image-delete_button:hover {
+        background-color: #DE4343;
+        color: black;
+    }
+
+.car-name {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Jost", Arial, sans-serif;
+    letter-spacing: 0.5px;
+    color: #073B2F;
+    margin-top: 3.5rem;
+    border-radius: 10px;
+    padding: 10px 0px 10px 140px;
+    background-color: #A0D4C8;
+}
+
+.column {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+}
